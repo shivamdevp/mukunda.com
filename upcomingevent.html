@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=10, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    
+    <title> Upcoming Event Book Now!</title>
+</head>
+<body>
+<div class="container-fluid">
+        <header>
+            <div class="container">
+                <button onclick="menuOpen()"><i class="bi bi-list"></i></button>
+                <nav class="row">
+                    <ul class="col-12-row d-flex justify-sb" id="menu">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="">VISION</a></li>
+                        <li><a href="">EXPRESSION</a></li>
+                        <li><a href="">SEASONS</a></li>
+                        <li><a href="">TASTE</a></li>
+                        <li><a href="">CULTURE</a>
+                            <div class="dropdown">
+                                <ul class="d-flex flex-column align-center">
+                                    <li><a href="culturalperformers.html">CULTURAL PERFORMERS</a></li>
+                                    <li><a href="upcomingevent.html">UPCOMING EVENTS</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="">CELEBRATIONS</a>
+                            <div class="dropdown-2">
+                                <ul class="d-flex flex-column align-center">
+                                    <li><a href="diwali-itinerary-2026.html" class="text-upper">diwali itinerary 2026</a></li>
+                                    <li><a href="holi-calendar-2026.html" class="text-upper">holi calendar 2026</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="">STORIES</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <figure class="container-logo d-flex justify-center">
+            <div class="row gap-bottom ">
+                <img src="img/logo.png" alt="">
+            </div>
+        </figure>
+        <main>
+            <section class="container-hero d-flex flex-column align-center">
+                <div class="row-1 space-1">
+                    <h1 class="h1-hero">GRAND DIWALI PERFORMANCE<br/> NOVEMBER 6th 2026 </h1>
+                </div>
+                <div class="row-2 space-1">
+                    <img src="img/uocoming-event-hero-img.jpg" alt="">
+                </div>
+            </section>
+            <section class="container-text">
+                <div class="row-1 text-center">
+                    <h2>MUSIC. DANCE. FOOD</h2>
+                </div>
+                <div class="row-2 text-center">
+                    <p class="event-para">This day, we’ll host our grand Diwali event. We love to host traditional performers from across Rajasthan.<br/>Watch the dancers set up, apply traditional make up and dress in their finest most colourful silks.</p>
+                </div>
+                <div class="row-3 text-center">
+                    <p class="event-para">Listen as the musicians practice and wonder at their instruments - some extraordinary, some simple,<br/>each one a beautiful piece of craftmanship. </p>
+                </div>
+                <div class="row-4 text-center">
+                    <p class="event-para">The haveli is a natural stage and forms a fine backdrop for performance, rich in sound and colour.<br/>These performances are not just for our guests - who will soak up the culture of our state - but also for our local<br/>people who come from far and wide to enjoy what the haveli has to offer. </p>
+                </div>
+            </section>
+             <figure class="container-figure d-flex justify-center">
+                <div class="row row-upcoming d-flex justify-sb">
+                    <div class="col-4 col-4-up">
+                        <img src="img/uocoming-event-img1.jpg" alt="" >
+                    </div>
+                    <div class="col-4 col-4-up">
+                        <img src="img/uocoming-event-img2.jpg" alt="" >
+                    </div>
+                    <div class="col-4 col-4-up">
+                        <img src="img/uocoming-event-img3.jpg" alt="" >
+                    </div>
+                </div>
+            </figure>
+
+        </main>
+         <footer class="container-footer">
+            <div class="row d-flex justify-sb align-center">
+                <div class="col-4">
+                    Lional Falodu
+                </div>
+                <div class="col-4 text-center">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-chat-right-fill"></i></a>
+                </div>
+                <div class="col-4 text-end">
+                    <span>made with sqodal</span>
+                </div>
+            </div>
+        </footer>
+</div>
+</body>
+
+<script>
+    function menuOpen() {
+
+        var menu = document.getElementById("menu");
+
+        if (menu.style.display == "block") {
+            menu.style.display = "none";
+        }
+        else {
+            menu.style.display = "block";
+        }
+
+    }
+</script>
+
+</html>

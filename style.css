@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* global selector */
+*{padding: 0; margin: 0; box-sizing: border-box;font-family: "Roboto", sans-serif;}
+/* common class */
+.d-flex{display: flex;}
+.justify-center{justify-content: center;}
+.justify-sb{justify-content: space-between;}
+.align-center{align-items: center;}
+.text-center{text-align: center;}
+a{display: inline-block; text-decoration: none;}
+li{list-style: none;}
+.justify-around{justify-content: space-around;}
+.text-end{text-align: right;}
+.fs{font-size: 10px;}
+.postion-relative{position: relative;}
+.flex-column{flex-direction: column;}.f-wrap{flex-wrap: wrap;}
+.text-start{text-align: left;}
+.container-fluid{width: 100%;}.text-upper{text-transform: uppercase;}
+.position-relative{position: relative;}
+.position-absolute{position:absolute;}
+.postion-sticky{position:sticky}
+.position-fixed{position:fixed;}
+.f-diwali{font-family: "Georgia", serif;}
+.text-color{color: #9f7202;}
+
+/* header layout fixed start */
+
+header{width: 100%; background-color: #e2e2e2;}
+.container{width: 900px; margin: auto; padding-top:40px; padding-bottom: 20px;}
+ul li a{color: #231f20; transition: all 0.3s ease; border-bottom: 2px solid transparent;}
+ul li a:hover{font-weight: bold; transform: translate(-1px,-1px); border-bottom: 2px solid #231f20;}
+button{display: none;}
+ul li .dropdown{width: 220px; background-color: #fff; border: 1px solid #231f20; position: absolute; padding: 10px 5px; display: none; right: 35.5%;}
+ul li .dropdown-2{width: 205px; background-color: #fff; border: 1px solid #231f20; position: absolute; padding: 10px 5px; display: none; right: 27.5%;}
+ul li .dropdown li,ul li .dropdown-2 li {line-height: 25px;}
+ul li:hover .dropdown,ul li:hover .dropdown-2{ display: block;}
+
+.container-logo{width: 920px; margin: 0 auto; 
+    /* border: 1px solid red; */
+    padding-top: 50px;
+}
+.container-logo .row{width: 60%;}
+.container-logo img{width: 100%;}
+
+/* header layout fixed start */
+
+
+/* Main Content Area - Home start*/
+.container-md{width: 1200px; margin: 0 auto;
+/* border: 1px solid red; */
+}
+.container-md .row{width: 100%;}
+.container-md .row img{width: 100%;}
+.container-md-1{width: 1200px; margin: 0 auto;
+    /* border: 1px solid red; */
+   
+    
+}
+.container-md-1 .row{width: 100%;
+/* border: 1px solid red; */
+padding: 20px 0px;
+ background-color: #231f20;
+}
+.container-md-1 .row .left,.right{width: 15%;}
+.container-md-1 .row img{width: 100%;}
+.container-md-1 .row p{color: #fff; font-size: 35px; text-align: center; }
+
+.container-md .row-2{width: 80%;
+/* border: 1px solid red; */
+}
+.container-md .row-2 {padding-top: 50px; padding-bottom: 20px;}
+.row-2 .para-center{font-size: 16px; line-height: 28px; color: gray;}
+
+.container-md-figure{width: 940px;
+/* border: 1px solid red; */
+ margin: 0 auto; gap: 10px;}
+
+.col-2{width: 30.4%;}
+.col-2 img{width:100%;}
+.col-8{width: 60%;}
+.col-8 img{width: 100%;}
+.col-12{width: 100%;}
+.container-md-figure .row{width: 80%;}
+.container-md-figure .row img{width: 100%;}
+
+/* Main Content Area Home end */
+
+/* Main Content Area - Cultural Performers start*/
+
+.container-hero{width: 1200px; margin: 0 auto; 
+  /* border: 1px solid red; */
+   padding-top: 0px;
+}
+.container-hero .row-1,.container-hero .row-2{width: 100%; text-align: center; padding: 25px 0px;}
+.container-hero .row-1 h1{color: #9f7202; font-size: 50px; font-weight: normal;}
+.container-text{width: 1200px; margin: 0 auto;
+  /* border: 1px solid red; */
+   padding-top: 18px;
+}
+.container-hero .row-2 img{width: 100%;}
+.container-text .row-1, .row-2, .row-3, .row-4,.row-7,.row-8,.row-9{padding: 10px 0px;}
+.container-text p{font-size: 20px; line-height: 28px; color: rgb(70, 69, 69); font-family: 'Times New Roman', Times, serif;}
+
+.container-figure{
+    width: 1200px; margin: 0 auto;
+    /* border: 1px solid red; */
+    padding-top: 60px;
+     padding-bottom: 60px;
+}
+.container-figure .row{width: 80%;
+/* border: 1px solid red;  */
+
+}
+.container-holi{padding: 0px; padding-bottom: 10px;}
+.container-figure .col-4{width: 27.1%;}
+.container-figure .col-4 img{width: 100%;}
+.container-figure .col-8{width: 72%;}
+.container-figure .col-8 img{width: 100%;}
+
+
+
+/* Main Content Area Cultural Performers end */
+
+/* Main Content Area Upcoming Event Start */
+.container-logo .gap-bottom{padding-bottom: 50px;}
+.container-hero .space-1,.container-hero .space-2{padding: 4px 0px;}
+.container-hero .h1-hero{line-height: 75px;}
+h2{font-family: Trajan-style serif;color: #9f7202; word-spacing: 15px;font-size:40px; font-weight: normal;}
+.container-text .event-para{line-height: 40px;}
+.container-figure .row-upcoming{width: 95%;}
+.container-figure .col-4-up{width: 32%;}
+.container-figure .col-4-up img{width: 100%; height: 100%;}
+
+/* Main Content Area Upcoming Event End */
+
+/* Main Content Area Diwali start */
+.bg-gray{width: 1200px; margin: 0 auto;
+background-color: #ece7e7;
+margin-bottom: 50px;
+margin-top: 50px;
+padding-bottom: 50px;
+}
+.para-h1-h2{padding-top: 40px; padding-bottom: 20px;}
+.container-md-figure .col-2-diwali{width: 35%;}
+.container-md-figure .col-2-diwali img{width: 100%;}
+.container-md-figure .col-8-diwali{width: 30%;}
+.container-md-figure .col-8-diwali img{width: 100%;}
+.diwarli-h1{ color: #ac7f0f; font-size: 75px; font-weight: normal;letter-spacing: 20px;}
+.diwarli-h2{color:#535355; font-size: 25px; letter-spacing: 13px;padding-top: 10px;}
+h3{color: #9f7202; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; padding-top: 10px; padding-bottom: 10px;}
+.para-h3,.para-h3-1,.para-h3-2,.para-h3-3,.para-h3-4,.para-h3-5,.para-h3-6,.para-h3-7,.para-h3-8,.para-h3-9,.para-h3-10,.para-h3-11,.para-h3-12,.para-h3-13,.para-h3-14{font-family: "Georgia", serif;}
+.para-h3-1,.para-h3-2,.para-h3-3,.para-h3,.para-h3-4,.para-h3-5,.para-h3-6,.para-h3-7,.para-h3-8,.para-h3-10,.para-h3-11{padding-bottom: 10px;}
+.md-figure-space{padding: 50px 0px;}
+
+/* Main Content Area Diwali END */
+
+/* Main Content Area Holi Start */
+.holi-h1{color: #ac7f0f; font-family: Georgia,serif; word-spacing: 10px; padding: 30px 0px}
+.holi-para{ padding: 10px 0px;}
+.container-figure .row-holi{ width: 100%;
+    /* border: 1px solid red; */
+}
+.col-4-holi{width:13.5% ;}
+.col-4-holi img{width: 100%; height: 100%;}
+.col-5-holi{width:30% ;}
+.col-5-holi img{width: 100%; height: 100%;}
+.row-2-heading{
+    /* border: 1px solid red; */
+}
+.holi-h2{ font-size: 25px;word-spacing: 5px; padding: 35px 0px;}
+.holi-h2-para{display: inline-block;text-align: center; padding: 15px 0px;color: rgb(70, 69, 69); font-family: Georgia, serif;font-size: 18px;}
+.text-color-gap{padding: 0px 6px; font-size: 20px;}
+.holi-para-break{display: block; color: rgb(70, 69, 69);font-family: Georgia, serif;    font-size: 20px;}
+.container-figure .row-footer{
+    /* border: 1px solid red; */
+    width: 95%;
+}
+.footer-col{width: 34%;}
+.footer-col img{width: 100%; height: 100%;}
+
+
+/* Main Content Area Holi END */
+
+
+
+/* Footer Layout fixed */
+.container-footer{
+    width: 100%; background-color: #e2e2e2;
+   
+}
+.container-footer .row{
+    width: 1080.8px; margin: 0 auto;
+    /* border: 1px solid red; */
+    padding: 60px 0px;
+}
+
+
+.container-footer .col-4 i{color: #585858; border: 1px solid #535353; margin: 0px 1px; padding:5px; border-radius: 50%;}
+.container-footer span{color: #ccc;}
+
+/* Footer Layout fixed End */
+
+
+/* Responsive */
+
+@media(max-width:1024px){
+header,.container-md,.container-footer,.container-logo,.container-md-1{width: 100%;}
+.container{width: 75%;}
+.container-logo .row {width: 50%;}
+.container-md .row {width: 95%;}
+.container-md-1 .row{width: 95.5%;}
+.container-md-figure{width: 81%;}
+.container-footer .row{width: 90%;}
+.container-hero,.container-text,.container-figure{width: 100%;}
+.container-hero .row-1, .container-hero .row-2{width: 90%;}
+.container-text p{font-size: 16px; line-height: 25px;}
+.container-figure .row {width: 75%;}
+.bg-gray{width: 95%;}
+.container-figure .row-holi{width: 95%;}
+.container-figure .row-footer{width: 93%;}
+
+}
+
+@media(max-width:768px){
+    .container{padding-left: 30px; padding-top: 10px;}
+     button{display: block; }
+      button i{font-size: 30px;}
+     #menu{
+        display:none;
+        text-align: center;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .container-md-figure {width: 85%;}
+    .container-footer .row{width: 90%;}
+    .container-md-1 .row p {font-size: 21px;
+    }
+        .container-hero .row-1, .container-hero .row-2 {width: 85%;}
+        .container-hero .row-1 h1 {font-size: 40px;}
+            .container-text p {font-size: 12px; line-height: 24px;}
+                .container-figure .row {width: 70%;}
+                .container-figure{padding-top: 16px;}
+.bg-gray{width: 85%;}
+.holi-h1{padding: 0px;}
+.container-figure .row-holi{width: 90%;}
+.holi-h2 {
+    font-size: 20px;
+    word-spacing: 3px;
+    padding: 20px 0px;
+}}
+.container-figure .row-footer{width: 85%;}
+@media(max-width:640px){
+     button i{font-size: 20px;}
+      #menu{
+        text-align: center;
+        font-size: 15px;
+        line-height: 30px;
+    }
+        .container-md-1 .row p {font-size: 13px;
+    }
+    .row-2 .para-center {font-size: 14px;padding: 5px 0px 15px 0px;}
+    .container-md-figure{flex-direction: column; padding: 20px 0px;}
+    .col-2,.col-8{width: 100%;}
+    .container-md-figure .row{width: 100%;}
+    .container-footer .row{flex-direction: column; padding: 0px;}
+    .container-footer .row .col-4{padding: 15px 0px;}
+    .container-md .row-2{padding-top: 15px;}
+    .container-hero .row-1, .container-hero .row-2 {width: 85%; padding: 8px 0px;}
+        .container-hero .row-1 h1 {font-size: 24px;}
+        .container-logo{padding-top: 12px;}
+.container-text p {font-size: 16px;
+        line-height: 23px;
+        padding: 0px 30px;}
+.text-center {text-align: justify;}
+.container-figure .row{ flex-direction: column; align-items: center; gap: 20px;}
+.container-figure .col-4,.container-figure .col-8{width: 100%;}
+.container-figure{padding-bottom: 15px;}
+.container-logo .gap-bottom {padding-bottom: 0px;}
+.container-hero .h1-hero {line-height: 30px;}
+h2{    word-spacing: 5px;
+    font-size: 16px;
+    text-align: center;}
+.container-text .event-para {line-height: 25px;}
+.bg-gray{width: 90%;}
+.diwarli-h1{font-size: 27px;}
+.diwarli-h2{font-size: 19px;line-height: 30px;}
+.text-center-diwali{text-align: center;}
+.container-md-figure .col-2-diwali{width: 100%;}
+.container-md-figure .col-2-diwali img{width: 100%;}
+.container-md-figure .col-8-diwali{width: 100%;}
+.container-md-figure .col-8-diwali img{width: 100%;}
+.diwarli-h2 {
+        font-size: 13px;
+        line-height: 50px;
+    }
+    .diwarli-h2 {
+    color: #535355;
+    font-size: 25px;
+    letter-spacing: 8px;
+    padding-top: 0px;
+}
+.row-2 .holi-para{padding-top:20px;}
+.container-text .row-1, .row-2, .row-3, .row-4, .row-7, .row-8, .row-9{text-align: center;}
+    .holi-h2 {line-height: 25px;}
+.row-2-heading .holi-h2-para{ padding: 10px 30px;font-size: 16px;}
+.holi-h2-para{text-align: center; display: block;}
+
+
+}
